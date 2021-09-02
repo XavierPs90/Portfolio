@@ -9,8 +9,8 @@
 }
 
 body{
-    background-color: #333333;
-    color: #cccccc;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 80%);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
 }
@@ -18,10 +18,6 @@ body{
 /* ----------------------------------------------------
 ------------------------NAV-------------------------
 ---------------------------------------------------- */
-.cont-logo{
-    display: none;
-}
-
 .cont-nav{
     width: 10vh;
     height: 10vh; 
@@ -36,6 +32,10 @@ body{
     position: fixed;
     background-color: hsl(0, 0%, 15%);
     vertical-align: middle;
+}
+
+.logo{
+    display: none;
 }
 
 ul{
@@ -100,7 +100,6 @@ h1, h2, h3{
     height: 40vw;
     margin: 0 auto;
     margin-bottom: 8vh;
-    /* background-image: url("/img/photo.jpg"); */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -148,18 +147,6 @@ footer{
     margin: 1vw;
 }
 
-/* .icon-email{
-    background-image: url("/img/email.png");
-} */
-
-/* .icon-facebook{
-    background-image: url("/img/facebook.png");
-} */
-
-/* .icon-linkedin{
-    background-image: url("/img/linkedin.png");
-} */
-
 .icon-github{
     background-image: url("/img/github.png");
 }
@@ -172,14 +159,6 @@ footer{
 @media screen and (min-width: 730px){
     .flex{
         display: flex;
-    }
-
-    .cont-logo{
-        display: inline;
-        position: fixed;
-        margin-left: 8vw;
-        width: 6vw;
-        height: 6vw;
     }
 
     .cont-nav{
@@ -197,13 +176,22 @@ footer{
         background-color: hsl(0, 0%, 15%);
     }
 
-    .cont-list ul{
+    .logo{
+        display: inline;
+        position: fixed;
+        margin-left: 8vw;
+        margin-top: .5vw;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    ul{
         margin-left: 60vw;
         margin-right: 2vw;
         padding-top: 2vw;
     }
     
-    .cont-list ul li{
+    ul li{
         margin: 0;
         padding: 0;
         list-style: none;
@@ -212,12 +200,12 @@ footer{
         border-bottom: 1vw solid hsl(0, 0%, 15%);
     }
     
-    .cont-list ul li:hover {
+    ul li:hover {
         border-bottom: 0.2vw solid hsl(116, 49%, 43%);
         transition: .3s;
     }
     
-    .cont-list ul li a {
+    ul li a {
         text-decoration: none;
         color: hsl(0, 0%, 80%);
         transition: none;
