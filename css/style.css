@@ -8,10 +8,6 @@
     padding: 0;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 body{
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 80%);
