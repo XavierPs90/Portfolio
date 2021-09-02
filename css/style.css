@@ -9,8 +9,8 @@
 }
 
 body{
-    background-color: hsl(0, 0%, 20%);
-    color: hsl(0, 0%, 80%);
+    background-color: #333333;
+    color: #cccccc;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
 }
@@ -18,6 +18,9 @@ body{
 /* ----------------------------------------------------
 ------------------------NAV-------------------------
 ---------------------------------------------------- */
+.cont-logo{
+    display: none;
+}
 
 .cont-nav{
     width: 10vh;
@@ -50,12 +53,12 @@ li{
 }
 
 li:hover {
-    border-bottom: 1vw solid hsl(116, 49%, 43%);
+    border-bottom: 1vw solid #3fa338;
 }
 
 a {
     text-decoration: none;
-    color: hsl(0, 0%, 80%);
+    color: #cccccc;
     transition: .3s all;
 }
 
@@ -169,6 +172,14 @@ footer{
 @media screen and (min-width: 730px){
     .flex{
         display: flex;
+    }
+
+    .cont-logo{
+        display: inline;
+        position: fixed;
+        margin-left: 8vw;
+        width: 6vw;
+        height: 6vw;
     }
 
     .cont-nav{
