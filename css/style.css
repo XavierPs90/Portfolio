@@ -101,9 +101,9 @@ h1, h2, h3{
     height: 40vw;
     margin: 0 auto;
     margin-bottom: 8vh;
-    background-image: url("/img/photo.jpg");
+    /* background-image: url("/img/photo.jpg"); */
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 100%;
 }
@@ -149,17 +149,17 @@ footer{
     margin: 1vw;
 }
 
-.icon-email{
+/* .icon-email{
     background-image: url("/img/email.png");
-}
+} */
 
-.icon-facebook{
+/* .icon-facebook{
     background-image: url("/img/facebook.png");
-}
+} */
 
-.icon-linkedin{
+/* .icon-linkedin{
     background-image: url("/img/linkedin.png");
-}
+} */
 
 .icon-github{
     background-image: url("/img/github.png");
@@ -263,9 +263,5 @@ footer{
     .icon{
         width: 1.5rem;
         height: 1.5rem;
-        margin: 0 auto;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 }
