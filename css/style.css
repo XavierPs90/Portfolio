@@ -101,7 +101,7 @@ h1, h2, h3{
     height: 40vw;
     margin: 0 auto;
     margin-bottom: 8vh;
-    background-image: url("/img/portfolio-photo2.jpg");
+    background-image: url("/img/photo.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -150,19 +150,19 @@ footer{
 }
 
 .icon-email{
-    background-image: url("/img/email-white.png");
+    background-image: url("/img/email.png");
 }
 
 .icon-facebook{
-    background-image: url("/img/facebook-white.png");
+    background-image: url("/img/facebook.png");
 }
 
 .icon-linkedin{
-    background-image: url("/img/linkedin-white.png");
+    background-image: url("/img/linkedin.png");
 }
 
 .icon-github{
-    background-image: url("/img/github-white.png");
+    background-image: url("/img/github.png");
 }
 
 
@@ -243,11 +243,6 @@ footer{
         height: 20vw;
         margin-right: 8vw;
         margin-bottom: 8vh;
-        background-image: url("/img/portfolio-photo2.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 100%;
     }
 }
 
